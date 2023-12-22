@@ -322,3 +322,9 @@ footer {
     padding: 3px;
   }
 }
+@media screen and (max-width: 500px) {
+  .textCopy {
+    text-align: center;
+    font-size: 15px;
+  }
+}
