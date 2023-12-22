@@ -56,7 +56,7 @@ i {
   margin-top: 1rem;
 }
 
-@media screen and (max-width: 768px) {
+@media (max-width: 768px) {
   .header-content {
     width: 100%;
     flex-direction: column;
@@ -74,5 +74,12 @@ i {
 
   .header-button {
     display: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .header-icons {
+    margin-top: 2rem;
+    font-size: 0.5rem;
   }
 }
